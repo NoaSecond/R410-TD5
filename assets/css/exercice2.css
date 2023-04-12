@@ -1,0 +1,50 @@
+body {
+    font-family: Arial;
+}
+
+#product-generation {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.product {
+    display: inline-block;
+    background: #ebeeef;
+    padding: 20px;
+    max-width: 540px;
+    box-sizing: border-box;
+    margin: 0 20px 20px 0;
+}
+
+.product .name {
+    margin-top: 20px;
+}
+
+.product div {
+    padding: 5px 0;
+}
+
+.product img {
+    display: block;
+}
+
+.brand {
+    font-style: italic;
+}
+
+.product .old-price {
+    font-size: 0.8em;
+    color: #787777;
+    text-decoration: line-through;
+}
+
+.product .price {
+    font-weight: 600;
+    font-size: 1em;
+    color: #af0018;
+}
+
+.product .stock {
+    color: green;
+    font-weight: bold;
+}
